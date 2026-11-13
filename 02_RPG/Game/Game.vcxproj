@@ -223,27 +223,69 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AmmoUI.cpp" />
     <ClCompile Include="BackGround.cpp" />
     <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Crosshair.cpp" />
+    <ClCompile Include="DamageEffect.cpp" />
+    <ClCompile Include="EffectBase.cpp" />
+    <ClCompile Include="EnemyBulletManager.cpp" />
+    <ClCompile Include="enemyHPBar.cpp" />
+    <ClCompile Include="EnemySpawner.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameCamera.cpp" />
+    <ClCompile Include="GameClear.cpp" />
+    <ClCompile Include="GameConfig.cpp" />
+    <ClCompile Include="GameInput.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="HitEffect.cpp" />
+    <ClCompile Include="HitFxManager.cpp" />
+    <ClCompile Include="HitSparks.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MinimapUI.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerHPBar.cpp" />
+    <ClCompile Include="robot.cpp" />
+    <ClCompile Include="Sky.cpp" />
+    <ClCompile Include="Sound.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Preview|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="system\system.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="WeaponColorUI.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AmmoUI.h" />
     <ClInclude Include="BackGround.h" />
     <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Crosshair.h" />
+    <ClInclude Include="DamageEffect.h" />
+    <ClInclude Include="EffectBase.h" />
+    <ClInclude Include="EnemyBulletManager.h" />
+    <ClInclude Include="enemyHPBar.h" />
+    <ClInclude Include="EnemySpawner.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameCamera.h" />
+    <ClInclude Include="GameClear.h" />
+    <ClInclude Include="GameConfig.h" />
+    <ClInclude Include="GameInput.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="HitEffect.h" />
+    <ClInclude Include="HitFxManager.h" />
+    <ClInclude Include="HitSparks.h" />
+    <ClInclude Include="MinimapUI.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerHPBar.h" />
+    <ClInclude Include="robot.h" />
+    <ClInclude Include="Sky.h" />
+    <ClInclude Include="Sound.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="system\system.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="WeaponColorUI.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

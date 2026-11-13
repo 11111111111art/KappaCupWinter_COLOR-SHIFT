@@ -16,6 +16,27 @@
     <ClCompile Include="GameCamera.cpp" />
     <ClCompile Include="BackGround.cpp" />
     <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="robot.cpp" />
+    <ClCompile Include="enemyHPBar.cpp" />
+    <ClCompile Include="PlayerHPBar.cpp" />
+    <ClCompile Include="GameClear.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="DamageEffect.cpp" />
+    <ClCompile Include="EffectBase.cpp" />
+    <ClCompile Include="HitEffect.cpp" />
+    <ClCompile Include="Crosshair.cpp" />
+    <ClCompile Include="AmmoUI.cpp" />
+    <ClCompile Include="HitSparks.cpp" />
+    <ClCompile Include="HitFxManager.cpp" />
+    <ClCompile Include="EnemySpawner.cpp" />
+    <ClCompile Include="GameInput.cpp" />
+    <ClCompile Include="WeaponColorUI.cpp" />
+    <ClCompile Include="EnemyBulletManager.cpp" />
+    <ClCompile Include="MinimapUI.cpp" />
+    <ClCompile Include="Sky.cpp" />
+    <ClCompile Include="GameConfig.cpp" />
+    <ClCompile Include="Sound.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -27,5 +48,26 @@
     <ClInclude Include="GameCamera.h" />
     <ClInclude Include="BackGround.h" />
     <ClInclude Include="Bullet.h" />
+    <ClInclude Include="robot.h" />
+    <ClInclude Include="enemyHPBar.h" />
+    <ClInclude Include="PlayerHPBar.h" />
+    <ClInclude Include="GameClear.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="DamageEffect.h" />
+    <ClInclude Include="EffectBase.h" />
+    <ClInclude Include="HitEffect.h" />
+    <ClInclude Include="Crosshair.h" />
+    <ClInclude Include="AmmoUI.h" />
+    <ClInclude Include="HitSparks.h" />
+    <ClInclude Include="HitFxManager.h" />
+    <ClInclude Include="EnemySpawner.h" />
+    <ClInclude Include="GameInput.h" />
+    <ClInclude Include="WeaponColorUI.h" />
+    <ClInclude Include="EnemyBulletManager.h" />
+    <ClInclude Include="MinimapUI.h" />
+    <ClInclude Include="Sky.h" />
+    <ClInclude Include="GameConfig.h" />
+    <ClInclude Include="Sound.h" />
   </ItemGroup>
 </Project>

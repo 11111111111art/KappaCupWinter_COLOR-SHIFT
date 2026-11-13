@@ -14,7 +14,7 @@ BackGround::~BackGround()
 bool BackGround::Start()
 {
     m_modelRender.Init(
-        "Assets/modelData/stage/RPG.tkm"
+        "Assets/modelData/stage/stage.tkm"
     );
 
     m_modelRender.Update();

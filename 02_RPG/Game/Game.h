@@ -8,7 +8,7 @@ class Game : public IGameObject
 {
 public:
 	Game() {}
-	~Game() {}
+	~Game();
 	bool Start();
 	void Update();
 	void Render(RenderContext& rc);

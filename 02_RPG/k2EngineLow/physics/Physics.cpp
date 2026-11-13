@@ -34,14 +34,20 @@ namespace nsK2EngineLow {
 			Vector3 rayEnd;
 			bool isHit = false;
 			float hitFraction = 1.0f;
-			btScalar	addSingleResult(btCollisionWorld::LocalRayResult& rayResult, bool normalInWorldSpace) override			
+
+			btScalar addSingleResult(
+				btCollisionWorld::LocalRayResult& rayResult,
+				bool normalInWorldSpace
+			) override
 			{
-				if (rayResult.m_hitFraction < hitFraction) {
-					// ‚±‚¿‚ç‚Ì•û‚ª‹ß‚¢B
-					hitPos.Lerp(rayResult.m_hitFraction, rayStart, rayEnd);
+				if (rayResult.m_hitFraction < hitFraction)
+				{
+					hitFraction = rayResult.m_hitFraction;
+					hitPos.Lerp(hitFraction, rayStart, rayEnd);
 				}
+
 				isHit = true;
-				return rayResult.m_hitFraction;
+				return hitFraction;
 			}
 		};
 	}
